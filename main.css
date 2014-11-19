@@ -1,0 +1,127 @@
+body {
+  background: #0d445a;
+  color: #fff;
+  font-family: Roboto, arial;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.header {
+  height: 600px;
+  width: 1200px;
+}
+
+.header-bg {
+  position: absolute;
+  top: 0;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.header-logo-bar {
+  background: rgba(255, 255, 255, .65);
+  margin: 80px 0 0 0;
+  opacity: .99;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.header-logo {
+  width: 60%;
+}
+
+.header-logo-bar h1 {
+  color: #195871;
+  font-size: 40px;
+  font-weight: normal;
+  margin: -22px 0 0 -29px;
+}
+
+.header-comingsoon {
+  color: #eee;
+  font-size: 40px;
+  margin: 40px 0 10px 0;
+  opacity: .99;
+  text-align: center;
+}
+
+.downloadlink-bar {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.downloadlink {
+  margin: 0 30px;
+  opacity: 0.5;
+}
+
+.howitworks {
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.howitworks h1 {
+  margin: 0;
+}
+
+.howitworks h2 {
+  margin: 5px 0;
+}
+
+.howitworks-p2 {
+  margin: 20px 0;
+}
+
+.steps {
+  font-size: 24px;
+  font-weight: lighter;
+  margin: 50px auto 80px;
+  width: 960px;
+}
+
+.steps-step {
+  float: left;
+  margin: 0 10px;
+  width: 300px;
+}
+
+.steps-step h1 {
+  font-size: 1.4em;
+  font-weight: lighter;
+  text-align: center;
+  margin: 0;
+}
+
+.steps-step h2 {
+  font-size: 1.1em;
+  text-align: center;
+  margin: 5px 0 8px 0;
+}
+
+.step-text {
+  margin: 21px auto 0;
+  width: 90%;
+}
+
+.ourmission {
+  background: #2d738f;
+  font-size: 24px;
+  font-weight: lighter;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.ourmission-text {
+  margin: 0 auto 70px;
+  text-align: left;
+  width: 80%;
+}
