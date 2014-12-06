@@ -45,21 +45,17 @@ p {
   margin: -22px 0 0 -29px;
 }
 
-.header-comingsoon {
-  color: #eee;
-  font-size: 40px;
-  margin: 40px 0 10px 0;
-  opacity: .99;
-  text-align: center;
-}
-
 .downloadlink-bar {
-  margin-bottom: 50px;
+  margin-top: 65px;
   text-align: center;
 }
 
 .downloadlink {
   margin: 0 30px;
+  opacity: 0.99;
+}
+
+.downloadlink-comingsoon {
   opacity: 0.5;
 }
 
