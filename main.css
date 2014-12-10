@@ -30,7 +30,7 @@ p {
   background: rgba(255, 255, 255, .65);
   margin: 80px 0 0 0;
   opacity: .99;
-  padding: 50px 0 0;
+  padding: 50px 0 20px;
   text-align: center;
 }
 
@@ -45,13 +45,24 @@ p {
   margin: -22px 0 0 -29px;
 }
 
-.header-share-bar {
-  height: 40px;
+.header-nummentor-bar {
+  color: #000;
   padding-top: 10px;
 }
 
+.header-nummentor-bar-num {
+  color: #195871;
+  font-size: 26px;
+  margin: 0 3px;
+}
+
+.header-share-bar {
+  height: 40px;
+  padding-top: 15px;
+}
+
 .downloadlink-bar {
-  margin-top: 65px;
+  margin-top: 45px;
   text-align: center;
 }
 
