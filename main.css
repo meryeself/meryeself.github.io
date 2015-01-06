@@ -166,3 +166,15 @@ p {
 .ourmission-text {
   margin: 0 auto 70px;
 }
+
+.footer {
+  font-size: 13px;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.privacy-policy-link {
+  color: #ccc;
+  text-decoration: none;
+  margin-left: 1px;
+}
