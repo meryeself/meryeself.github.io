@@ -21,9 +21,38 @@ p {
 
 .header-bg {
   position: absolute;
+  top: 30px;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.header-bar {
+  background: rgba(0, 0, 0, 1);
+  padding: 4px 0 6px;
+  position: absolute;
+  text-align: right;
   top: 0;
   margin: 0 auto;
   width: 1200px;
+  z-index: 1;
+}
+
+.header-bar-hatena {
+  margin-right: 25px;
+}
+
+.header-bar-hatena-link {
+  text-decoration: none;
+}
+
+.header-bar-hatena-link:hover {
+  text-decoration: underline;
+}
+
+.header-bar-hatena-link,
+.header-bar-hatena-link:hover
+{
+  color: #fff;
 }
 
 .header-logo-bar {
