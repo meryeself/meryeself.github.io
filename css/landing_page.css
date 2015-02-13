@@ -1,0 +1,277 @@
+
+/*
+ * とりあえず全部こっちに書くことにします
+ *
+ * @version 2015/02/04
+ * @author otiai10
+ */
+
+/*
+ * development section
+ */
+div.debug {
+    background-color: #ffff00;
+}
+
+/*
+ * 要件等 section
+ */
+/* TODO: これ、normalizeでもよくね？ */
+h1 {
+    margin: 0;
+}
+
+/*##################
+ * contents section
+ *##################
+ */
+
+/* GLOBAL */
+body {
+    min-width: 960px;
+}
+
+h1, h2, h3 {
+    color: #1885a3;
+    font-family: Roboto;
+    font-weight: lighter;
+}
+/* GENERAL */
+.content {
+    width: 960px;
+    margin: 0 auto;
+}
+.btn-merye {
+    background-color: #2d738f;
+    height: 40px;
+    border-radius: 20px;
+    padding: 7px 54px;
+    color: #fff;
+    font-size: 17px;
+    font-family: HiraKakuPro;
+    font-weight: lighter;
+}
+.btn-merye:hover {
+    color: #fff;
+}
+.btn-center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    display: -webkit-box;
+    display: -moz-box;
+}
+.strong {
+    font-weight: bold;
+}
+
+.plain-list {
+    list-style: none;
+}
+
+/*
+ * #hero
+*/
+#hero {
+    background: url(../images/screen_phone_hero.png);
+    background-color: #1d535f;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    line-height: 53.277px;
+    height: 500px;
+    border: none;
+    padding-top: 70px;
+}
+#hero>div>div {
+    z-index: 2;
+}
+.hero-offset {
+    margin-left: 100px;
+}
+#hero-intro {
+    font-size: 17px;
+    color: #ffffff;
+    font-family: HiraKakuPro;
+}
+#hero-intro>span>#mentors {
+    font-size: 30px;
+    font-family: Roboto;
+    color: #54caeb;
+}
+#hero-message {
+    font-size: 30px;
+    font-family: HiraKakuPro;
+    color: #ffffff;
+    line-height: 33px;
+    font-weight: normal;
+    margin-top: 16px;
+}
+#install-platform>img {
+    margin-right: 16px;
+    margin-top: 32px;
+}
+
+/*
+ * #social
+*/
+#social {
+    background-color: #3791ab;
+}
+
+/*
+ * #message
+*/
+#message {
+    height: 500px;
+    padding-top: 70px;
+}
+#message section>h1 {
+    margin-bottom: 29px;
+}
+#message section>p {
+    width: 779px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: HiraKakuPro;
+    font-weight: normal;
+}
+/*
+ * #steps
+*/
+#steps {
+    height: 311px;
+    width: 100%;
+    background-color: #2d738f;
+    border: black;
+    position: relative;
+    display: inline-block;
+}
+#steps>div {
+    position: relative;
+    top: -220px;
+    z-index: 100;
+}
+.step {
+    width: 260px;
+}
+.step>h2 {
+    font-family: Roboto;
+    font-size: 20px;
+}
+.step>div.image {
+    height: 260px;
+    width: 260px;
+    margin-bottom: 20px;
+}
+.step>.step-title {
+    font-family: HiraKakuPro;
+    font-size: 18px;
+    color: #195871;
+}
+.step>.step-description {
+    color: #ffffff;
+    display: block;
+}
+#step1 {
+    margin-left: 0;
+}
+#step1.step>div.image {
+    background: url(../images/screen_phone.png);
+}
+#step2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+#step2.step>div.image {
+    background: url(../images/Layer-9.png);
+}
+#step3 {
+    margin-left: auto;
+    margin-right: 0;
+}
+#step3.step>div.image {
+    background: url(../images/laptop_browsing-copy.png);
+}
+
+/*
+ * news
+*/
+#news {
+    /* height: 400px; */
+    padding-top: 65px;
+    padding-bottom: 70px;
+}
+#news>h1 {
+    margin-bottom: 20px;
+}
+
+#news-entries {
+    border-right: solid 1px #dddddd;
+}
+
+.media-logo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+ * mission
+*/
+#mission {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: rgba(45, 115, 143, 0.1); */
+    position: relative;
+    background: url(images/Rectangle-6-copy-2.png);
+}
+#mission>div>#mission-statement {
+    border-right: solid 1px #dddddd;
+    padding-right: 50px;
+}
+#mission>div>#mission-insight {
+    padding-left: 50px;
+}
+
+/*
+ * team
+*/
+#team {
+    /* height: 400px; */
+    padding-top: 69px;
+    padding-bottom: 30px;    
+}
+#team>div>div {
+    margin-bottom: 32px;
+}
+#team>div>h1 {
+    margin-bottom: 45px;
+}
+
+#team .team.icon {
+    width: 180px;
+    text-align: center;
+}
+
+#team .team.profile {
+    width: 340px;
+    padding: 8px 19px;
+}
+
+#team .profile-description {
+    margin-top: 10px;
+    width: 270px;
+}
+
+/*
+ * #contact
+*/
+#contact {
+    height: 200px;
+    background-color: rgba(45, 115, 143, 0.1);
+    padding-top: 60px;
+    font-family: HiraKakuPro;
+}
