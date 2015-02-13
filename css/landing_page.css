@@ -76,7 +76,7 @@ h1, h2, h3 {
  * #hero
 */
 #hero {
-    background: url(../images/screen_phone_hero.png);
+    background: url(../img/landing_page/screen_phone_hero.png);
     background-color: #1d535f;
     background-position: right top;
     background-repeat: no-repeat;
@@ -180,21 +180,21 @@ h1, h2, h3 {
     margin-left: 0;
 }
 #step1.step>div.image {
-    background: url(../images/screen_phone.png);
+    background: url(../img/landing_page/screen_phone.png);
 }
 #step2 {
     margin-left: auto;
     margin-right: auto;
 }
 #step2.step>div.image {
-    background: url(../images/Layer-9.png);
+    background: url(../img/landing_page/Layer-9.png);
 }
 #step3 {
     margin-left: auto;
     margin-right: 0;
 }
 #step3.step>div.image {
-    background: url(../images/laptop_browsing-copy.png);
+    background: url(../img/landing_page/laptop_browsing-copy.png);
 }
 
 /*
@@ -226,7 +226,7 @@ h1, h2, h3 {
     padding-bottom: 50px;
     /* background-color: rgba(45, 115, 143, 0.1); */
     position: relative;
-    background: url(images/Rectangle-6-copy-2.png);
+    background-color: rgba(232,239,242, 1);
 }
 #mission>div>#mission-statement {
     border-right: solid 1px #dddddd;
