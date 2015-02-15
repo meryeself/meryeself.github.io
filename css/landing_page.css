@@ -90,6 +90,7 @@ h1, h2, h3 {
 }
 .hero-offset {
     margin-left: 100px;
+    line-height: normal;
 }
 #hero-intro {
     font-size: 17px;
