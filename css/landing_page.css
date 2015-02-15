@@ -80,7 +80,6 @@ h1, h2, h3 {
     background-color: #1d535f;
     background-position: right top;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     line-height: 53.277px;
     height: 500px;
     border: none;
@@ -101,6 +100,9 @@ h1, h2, h3 {
     font-size: 30px;
     font-family: Roboto;
     color: #54caeb;
+    margin-left: 1px;
+    position: relative;
+    top: 1px;
 }
 #hero-message {
     font-size: 30px;
@@ -110,7 +112,7 @@ h1, h2, h3 {
     font-weight: normal;
     margin-top: 16px;
 }
-#install-platform>img {
+#install-platform .app-download-banner-img {
     margin-right: 16px;
     margin-top: 32px;
 }
@@ -120,6 +122,20 @@ h1, h2, h3 {
 */
 #social {
     background-color: #3791ab;
+    height: 80px;
+    padding-left: 100px;
+}
+
+#social .content-container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#social .content {
+    height: 80px;
+    display: table-cell;
+    vertical-align: middle;
+    width: 500px;
 }
 
 /*
@@ -149,6 +165,7 @@ h1, h2, h3 {
     border: black;
     position: relative;
     display: inline-block;
+    margin-bottom: -5px;
 }
 #steps>div {
     position: relative;
