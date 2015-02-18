@@ -128,7 +128,7 @@ h1, h2, h3 {
 }
 
 #social .content-container {
-    width: 500px;
+    width: 800px;
     margin: 0 auto;
 }
 
@@ -136,7 +136,17 @@ h1, h2, h3 {
     height: 80px;
     display: table-cell;
     vertical-align: middle;
-    width: 500px;
+    margin: 0;
+}
+
+#social .icons a {
+  color: #cfcfcf;
+}
+
+
+#social .icons a:hover,
+#social .icons a:focus {
+  color: #eee;
 }
 
 /*
