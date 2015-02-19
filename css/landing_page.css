@@ -140,13 +140,13 @@ h1, h2, h3 {
 }
 
 #social .icons a {
-  color: #cfcfcf;
+  color: #fff;
 }
 
 
 #social .icons a:hover,
 #social .icons a:focus {
-  color: #eee;
+  color: #c9dfe5;
 }
 
 /*
