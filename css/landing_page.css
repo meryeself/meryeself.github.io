@@ -270,7 +270,7 @@ h1, h2, h3 {
 #team {
     /* height: 400px; */
     padding-top: 69px;
-    padding-bottom: 30px;    
+    padding-bottom: 30px;
 }
 #team>div>div {
     margin-bottom: 32px;
@@ -293,6 +293,36 @@ h1, h2, h3 {
     margin-top: 10px;
     width: 270px;
 }
+
+
+/*
+ * #about
+*/
+#about {
+  padding-top: 69px;
+  padding-bottom: 30px;
+}
+
+#about .corporate_info {
+  margin: 0 auto;
+  width: 682px;
+}
+
+#about dl dt {
+  background-color: #f0f0f0;
+  float: left;
+  margin-right: 2px;
+  padding-left: 14px;
+  width: 149px;
+}
+
+#about dl dd {
+  background-color: #f9f9f9;
+  float: left;
+  padding-left: 12px;
+  width: 531px;
+}
+
 
 /*
  * #contact
