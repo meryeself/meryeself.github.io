@@ -304,8 +304,8 @@ h1, h2, h3 {
 }
 
 #about .corporate_info {
-  margin: 0 auto;
-  height: 300px;
+  margin: 20px auto;
+  height: 200px;
   width: 682px;
 }
 
