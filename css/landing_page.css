@@ -303,31 +303,6 @@ h1, h2, h3 {
   padding-bottom: 30px;
 }
 
-#about .corporate_info {
-  margin: 20px auto;
-  height: 200px;
-  width: 682px;
-}
-
-#about dl dt {
-  background-color: #f0f0f0;
-  float: left;
-  margin-right: 2px;
-  padding-left: 14px;
-  width: 149px;
-}
-
-#about dl dd {
-  background-color: #f9f9f9;
-  float: left;
-  padding: 14px 0 14px 12px;
-  line-height: 22px;
-  width: 531px;
-}
-
-#about dl+dl {
-  margin-top: 2px;
-}
 
 /*
  * #contact
