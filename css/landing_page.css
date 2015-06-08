@@ -303,6 +303,14 @@ h1, h2, h3 {
   padding-bottom: 30px;
 }
 
+#about .corporate_info {
+  margin: 20px 0 0 350px;
+}
+
+#about .corporate_info dl {
+  margin-bottom: 15px;
+}
+
 
 /*
  * #contact
